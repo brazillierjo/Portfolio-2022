@@ -1,0 +1,124 @@
+{
+    "basic_info": {
+      "description_header": "Bonjour ✌️",
+      "description": "👋 Moi c'est Johan. Développeur Web depuis 2 ans maintenant, j'aime travailler avec React, Vue & WordPress. J'adore intégrer des maquettes de tous style, rendre dynamique et intéractif un site web pour maximiser l'expérience utilisateur. Vous vous trouvez actuellement sur mon site portfolio. Jetez un oeil, ça vous donnera une idée de ce que je peux faire pour vous aider 🤝.",
+      "description2": "J'ai d'abord arrêté les études après un Baccalauréat Technologique. De petits boulots en petits boulots, j'ai rapidement compris que ce contexte ne me suffirait pas. J'ai donc repris mes études à 21 ans pour une licence en e-commerce ! Ces études m'ont permis d'exercer pendant 6 ans en tant que SEO ! Cette expérience m'a appris le fonctionnement du monde professionnel, le travail en équipe ainsi que le poids des responsabilités mais également la gestion d'un back office et d'un référencement naturel. En tant que SEO, travailler en étroite collaboration avec des développeurs m'a donné envie de me plonger dans ce monde très technique. Je me suis donc offert une formation bootcamp de 6 mois pour acquérir les bases de la programmation web et de l'écriture de code. Suite à cela, j'ai poursuivi mon apprentissage en alternance avec une Licence Intégrateur/Développeur d'Applications Web et mobile avec spécialité React et NodeJs ! Aujourd'hui, je suis développeur freelance.",
+      "section_name": {
+        "about": "À propos de moi",
+        "projects": "Projets",
+        "skills": "Compétences",
+        "experience": "Expériences"
+      }
+    },
+    "projects": [
+      {
+        "title": "Waletoo",
+        "startDate": "2020",
+        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "GetUp Agency",
+        "title": "Front-End Developer",
+        "years": "2022",
+        "mainTech": [
+          "WordPress | React | TypeScript"
+        ],
+        "technologies": [
+          "Wordpress",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "REST API",
+          "Bootstrap"
+        ]
+      },
+      {
+        "company": "JoCorp",
+        "title": "Développeur freelance",
+        "years": "2022",
+        "mainTech": [
+          "WordPress | React | TypeScript"
+        ],
+        "technologies": [
+          "Wordpress",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Vue",
+          "REST API",
+          "Tailwind"
+        ]
+      },
+      {
+        "company": "Vitassurance",
+        "title": "Développeur front-end & back-end",
+        "years": "2021",
+        "mainTech": [
+          "JavaScript | NodeJS"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "REST API",
+          "NodeJS"
+        ]
+      },
+      {
+        "company": "Vitassurance",
+        "title": "Développeur front-end & back-end",
+        "years": "2021",
+        "mainTech": [
+          "JavaScript | NodeJS"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "REST API",
+          "NodeJS"
+        ]
+      },
+      {
+        "company": "poupepoupi.com",
+        "title": "Web Analyste (6 ans)",
+        "years": "2014 - 2020",
+        "mainTech": [
+          "SEO"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Grandes enseignes | Jardineries | Animation",
+        "title": "Petits jobs dans plusieurs domaines",
+        "years": "2011 - 2014",
+        "mainTech": [
+          "Animation", "Mise en rayon", "Gestion de stock", "Manutention"
+        ],
+        "technologies": [
+        ]
+      }
+    ]
+  }
