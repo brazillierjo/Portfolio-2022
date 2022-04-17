@@ -52,6 +52,16 @@ header {
 	cursor: pointer;
 }
 
+.icon-header,
+a {
+	font-size: 4rem;
+	color: #1F1F1F;
+	transition: all 0.3s ease-in-out;
+
+	& :hover {
+		opacity: 0.8;
+	}
+}
 .project-date {
 	font-size: 16px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -382,7 +392,6 @@ header h1 {
 
 #diploma {
 	background: #1F1F1F;
-	color: white;
 }
 
 #skills {

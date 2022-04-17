@@ -1,0 +1,291 @@
+{
+    "basic_info": {
+      "description_header": "Hey ✌️",
+      "description": "👋 I am Johan. Web Developer for 2 years now, I love working with React, Vue & WordPress. I love integrating websites of all styles, making it dynamic and interactive to maximize the user experience. You are currently on my portfolio. Take a look, it will give you an idea of ​​what I can do to help you. 🤝.",
+      "description2": "I started studying after a High School diploma. From little jobs to little jobs, I quickly understood that this context was not enough. I have then re-started my studies at 21 years old for a Licence in e-commerce ! These studies have given me the opportunity to be SEO for 6 years ! This experience has taught me the way of the professional world, the teamwork and the responsibility weight but also the management of a back-office and SEO/SEA. As a SEO, working in close collaboration with developers has given me the chance to dive into this technical world. I offered myself a bootcamp of 6 months for acquiring the basics of web programming and code writing. After this, I have continued my learning in the form of an internship with a Licence Integrator/Developer Web and mobile with React and NodeJs ! Now, I am a freelance developer.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experiences",
+        "diploma": "Diplomas"
+      }
+    },
+    "projects": [
+      {
+        "title": "WordPress websites",
+        "title2": "(click to scroll through models)",
+        "startDate": "2022",
+        "description": "Creating WordPress websites with builders like Ave/Avada/Elementor.",
+        "images": [
+          "images/portfolio/concession.png",
+          "images/portfolio/creche.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain colored",
+            "name": "NextJs"
+          },
+          {
+            "class": "devicon-typescript-plain colored",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJs"
+          }
+        ]
+      },
+      {
+        "title": "Workout generator",
+        "startDate": "2022",
+        "description": "ma-sante.fr is a workout session manager. I quickly realized that when I went to do my session, I didn't prepare it, which diminishes the results in the long term. This web app will be responsible for generating sessions with always different exercises in order to optimize the tearing of the muscle fiber. Accompanied by an animated GIF, the exercises are easy to understand.",
+        "images": [
+          "images/portfolio/workoutGenerator.png"
+        ],
+        "url": "ma-seance.fr",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain colored",
+            "name": "NextJs"
+          },
+          {
+            "class": "devicon-typescript-plain colored",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJs"
+          }
+        ]
+      },
+      {
+        "title": "Waletoo",
+        "startDate": "2021",
+        "description": "Waletoo is a web application that will help you manage your finances. Simple and efficient. After having created an account, all you have to do is enter your expenses and incomes. The application then generates all kinds of calculations and graphs as well as advice to better manage your finances. ⚠️ project under development ⚠️.",
+        "images": [
+          "images/portfolio/waletoo.png"
+        ],
+        "url": "https://waletoo.herokuapp.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-tailwindcss-plain colored",
+            "name": "Tailwind"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJs"
+          }
+        ]
+      },
+      {
+        "title": "Vitassurance",
+        "startDate": "2021",
+        "description": "Insurance brokerage website allowing you to quickly compare the offers of different insurers. Once the form has been completed by the visitor, their information is sent via an API to a CRM in order to manage the new customer's file.",
+        "images": [
+          "images/portfolio/vitassurance.png"
+        ],
+        "url": "https://vitassurance.fr/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJs"
+          }
+        ]
+      },
+      {
+        "title": "Web Calculator",
+        "startDate": "2020",
+        "description": "Project carried out in order to deepen my knowledge of Vanilla JavaScript. You can choose between basic calculations or advanced calculations. Learning of light / night mode.",
+        "images": [
+          "images/portfolio/calculator.png"
+        ],
+        "url": "https://brazillierjo.github.io/calculator/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "Javascript"
+          }
+        ]
+      },
+      {
+        "title": "Markdown Previewer",
+        "startDate": "2020",
+        "description": "Markdown made for React training. Deployed on GitHub Pages.",
+        "images": [
+          "images/portfolio/markdown.png"
+        ],
+        "url": "https://brazillierjo.github.io/markdown/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "Javascript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "GetUp Agency",
+        "title": "Front-End Developer",
+        "years": "2022",
+        "mainTech": [
+          "WordPress | React | TypeScript"
+        ],
+        "technologies": [
+          "Wordpress",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "REST API",
+          "Bootstrap"
+        ]
+      },
+      {
+        "company": "JoCorp",
+        "title": "Freelance developer",
+        "years": "2022",
+        "mainTech": [
+          "WordPress | React | TypeScript"
+        ],
+        "technologies": [
+          "Wordpress",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Vue",
+          "REST API",
+          "Tailwind"
+        ]
+      },
+      {
+        "company": "Vitassurance",
+        "title": "front-end & back-end developer",
+        "years": "2021",
+        "mainTech": [
+          "JavaScript | NodeJS"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "REST API",
+          "NodeJS"
+        ]
+      },
+      {
+        "company": "poupepoupi.com",
+        "title": "Web Analyst (6 years)",
+        "years": "2014 - 2020",
+        "mainTech": [
+          "SEO"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Major retailers | Garden centers | Animation",
+        "title": "PSmall jobs in several domains",
+        "years": "2011 - 2014",
+        "mainTech": [
+          "Warehouse handler", "Animator", "Specialised seller"
+        ],
+        "technologies": [
+        ]
+      }
+    ],
+    "diploma": [
+      {
+        "company": "3WAcademy",
+        "title": "Integrator/Web Developer & mobile",
+        "years": "2020 - 2021",
+        "mainTech": [
+          "React",
+          "NodeJS",
+          "MySQL"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "OpenClassrooms",
+        "title": "Web developer",
+        "years": "2020",
+        "mainTech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "MySQL",
+          "Vue"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "University of Toulon",
+        "title": "Licence E-commerce & Digital Marketing",
+        "years": "2016 - 2017",
+        "mainTech": [
+          "Gestion d'équipe",
+          "Marketing",
+          "Marketing Digital",
+          "SEO",
+          "Référencement",
+          "E-commerce"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Défi83 - Toulon",
+        "title": "Comercial Unities Management",
+        "years": "2014 - 2016",
+        "mainTech": [
+          "Team management",
+          "Marketing",
+          "Digital Marketing"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Jean Aicard",
+        "title": "High School diploma",
+        "years": "2010 - 2012",
+        "mainTech": [
+            "Accounting"
+            ],
+        "technologies": [
+        ]
+      }
+    ]
+  }

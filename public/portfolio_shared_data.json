@@ -12,6 +12,16 @@
           "name": "LinkedIn",
           "url": "https://www.linkedin.com/in/johan-r-brazillier-9b917a174/",
           "class": "fab fa-linkedin"
+        },
+        {
+          "name": "Mail",
+          "url": "mailto:j.brazillier@gmail.com",
+          "class": "fab fa-envelope"
+        },
+        {
+          "name": "Tel",
+          "url": "tel:+33638027649",
+          "class": "fab fa-phone"
         }
       ],
       "image": "myProfile.jpg"
@@ -20,72 +30,72 @@
       "icons": [
         {
           "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "class": "devicon-html5-plain colored",
           "level": "95"
         },
         {
           "name": "CSS 3",
-          "class": "devicon-css3-plain",
+          "class": "devicon-css3-plain colored",
           "level": "95"
         },
         {
           "name": "JavaScript",
-          "class": "devicon-javascript-plain",
+          "class": "devicon-javascript-plain colored",
           "level": "70"
         },
         {
           "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "class": "devicon-typescript-plain colored",
           "level": "90"
         },
         {
           "name": "Sass",
-          "class": "devicon-sass-original",
+          "class": "devicon-sass-original colored",
           "level": "75"
         },
         {
-          "name": "TailWind",
-          "class": "devicon-tailwindcss-original-wordmark",
+          "name": "Tailwind",
+          "class": "devicon-tailwindcss-plain colored",
           "level": "75"
         },
         {
           "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "class": "devicon-bootstrap-plain colored",
           "level": "85"
         },
         {
           "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "class": "devicon-mysql-plain colored",
           "level": "60"
         },
         {
           "name": "MongoDB",
-          "class": "devicon-mongodb-plain",
+          "class": "devicon-mongodb-plain colored",
           "level": "60"
         },
         {
           "name": "WordPress",
-          "class": "devicon-wordpress-plain",
+          "class": "devicon-wordpress-plain-wordmark",
           "level": "60"
         },
         {
           "name": "React",
-          "class": "devicon-react-original",
+          "class": "devicon-react-original colored",
           "level": "60"
         },
         {
           "name": "Vue",
-          "class": "devicon-vuejs-plain",
+          "class": "devicon-vuejs-plain colored",
           "level": "60"
         },
         {
           "name": "NodeJS",
-          "class": "devicon-nodejs-plain",
+          "class": "devicon-nodejs-plain colored",
           "level": "60"
         },
         {
           "name": "Express",
-          "class": "devicon-express-original",
+          "class": "devicon-express-original-wordmark",
           "level": "60"
         }
       ]

@@ -81,15 +81,16 @@ class About extends Component {
                     <br />
                     {about}
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 mt-5 text-center">
-            <span className="wave" style={{
-                    height: "auto",
-                    fontSize: "132%",
-                    lineHeight: "200%",
-                  }}>{about2}</span>
+                                <div className="col-md-6 mt-5 text-justify">
+                                    <span style={{
+                                        height: "auto",
+                                        fontSize: "140%",
+                                        lineHeight: "200%",
+                                    }}>{about2}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
             </div>
           </div>
         </div>

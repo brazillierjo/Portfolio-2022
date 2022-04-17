@@ -25,6 +25,17 @@ class Header extends Component {
   }
 
   render() {
+    if (this.props.sharedBasicInfo) {
+      var networks = this.props.sharedBasicInfo.social.map(function (network) {
+        return (
+          <span key={network.name} className="m-4">
+            <a className="icon-header" href={network.url} target="_blank" rel="noopener noreferrer">
+              <i className={network.class}></i>
+            </a>
+          </span>
+        );
+      });
+    }
     if (this.props.sharedData) {
       var name = this.props.sharedData.name;
       this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
@@ -89,6 +100,7 @@ class Header extends Component {
               />
             </div>
           </div>
+          <div>{networks}</div>
         </div>
       </header>
     );

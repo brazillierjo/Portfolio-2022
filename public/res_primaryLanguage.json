@@ -7,31 +7,148 @@
         "about": "À propos de moi",
         "projects": "Projets",
         "skills": "Compétences",
-        "experience": "Expériences"
+        "experience": "Expériences",
+        "diploma": "Diplômes"
       }
     },
     "projects": [
       {
-        "title": "Waletoo",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Sites WordPress",
+        "title2": "(cliquez pour faire défiler les maquettes)",
+        "startDate": "2022",
+        "description": "Création de sites WordPress avec builder de type Ave/Avada/Elementor.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/concession.png",
+          "images/portfolio/creche.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-nextjs-plain colored",
+            "name": "NextJs"
           },
           {
-            "class": "devicon-typescript-plain",
+            "class": "devicon-typescript-plain colored",
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJs"
+          }
+        ]
+      },
+      {
+        "title": "Générateur de séance de musculation",
+        "startDate": "2022",
+        "description": "ma-sante.fr est un gérénateur de séance de musculation. Je me suis rapidement rendu compte qu'en allant faire ma séance, je ne le préparais pas, ce qui diminue les résultats sur le long terme. Cette web app se chargera de générer des séances avec des exercices toujours différents afin d'optimiser le déchirement de la fibre musculaire. Accompagné d'un GIF animé, les exercices sont faciles à comprendre.",
+        "images": [
+          "images/portfolio/workoutGenerator.png"
+        ],
+        "url": "ma-seance.fr",
+        "technologies": [
+          {
+            "class": "devicon-nextjs-plain colored",
+            "name": "NextJs"
+          },
+          {
+            "class": "devicon-typescript-plain colored",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJs"
+          }
+        ]
+      },
+      {
+        "title": "Waletoo",
+        "startDate": "2021",
+        "description": "Waletoo est une application Web qui va vous aider à gérer vos finances. Simple et efficace. Après avoir créé un compte, il suffit de rentrer ses charges et ses revenus. L'application génère alors toute sorte de calculs et graphiques ainsi que des conseils pour gérer au mieux vos finances. ⚠️ projet en cours de développement ⚠️.",
+        "images": [
+          "images/portfolio/waletoo.png"
+        ],
+        "url": "https://waletoo.herokuapp.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-tailwindcss-plain colored",
+            "name": "Tailwind"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJs"
+          }
+        ]
+      },
+      {
+        "title": "Vitassurance",
+        "startDate": "2021",
+        "description": "Site de courtage en assurances vous permettant de comparer rapidement les offres des différents assureurs. Une fois le formulaire rempli par le visiteur, ses informations sont transmises via une API à un CRM afin de gérer le dossier du nouveau client.",
+        "images": [
+          "images/portfolio/vitassurance.png"
+        ],
+        "url": "https://vitassurance.fr/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJs"
+          }
+        ]
+      },
+      {
+        "title": "Web Calculator",
+        "startDate": "2020",
+        "description": "Projet réalisé dans le but d'approfondir mes connaissances JavaScript Vanilla. Vous pouvez choisir entre des calculs de base ou des calculs avancés. Apprentissage du light/night mode.",
+        "images": [
+          "images/portfolio/calculator.png"
+        ],
+        "url": "https://brazillierjo.github.io/calculator/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "Javascript"
+          }
+        ]
+      },
+      {
+        "title": "Markdown Previewer",
+        "startDate": "2020",
+        "description": "Markdown réalisé dans le but d'une formation React. Déployé sur GitHub Pages.",
+        "images": [
+          "images/portfolio/markdown.png"
+        ],
+        "url": "https://brazillierjo.github.io/markdown/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "Javascript"
           }
         ]
       }
@@ -39,7 +156,7 @@
     "experience": [
       {
         "company": "GetUp Agency",
-        "title": "Front-End Developer",
+        "title": "Développeur front-End",
         "years": "2022",
         "mainTech": [
           "WordPress | React | TypeScript"
@@ -86,21 +203,6 @@
         ]
       },
       {
-        "company": "Vitassurance",
-        "title": "Développeur front-end & back-end",
-        "years": "2021",
-        "mainTech": [
-          "JavaScript | NodeJS"
-        ],
-        "technologies": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "REST API",
-          "NodeJS"
-        ]
-      },
-      {
         "company": "poupepoupi.com",
         "title": "Web Analyste (6 ans)",
         "years": "2014 - 2020",
@@ -117,6 +219,71 @@
         "mainTech": [
           "Animation", "Mise en rayon", "Gestion de stock", "Manutention"
         ],
+        "technologies": [
+        ]
+      }
+    ],
+    "diploma": [
+      {
+        "company": "3WAcademy",
+        "title": "(BAC+3) Licence Intégrateur/Développeur Web et mobile",
+        "years": "2020 - 2021",
+        "mainTech": [
+          "React",
+          "NodeJS",
+          "MySQL"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "OpenClassrooms",
+        "title": "Développeur Web - Diplôme de niveau 5 RNCP",
+        "years": "2020",
+        "mainTech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "MySQL",
+          "Vue"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Université de Toulon",
+        "title": "(BAC+3) Licence E-commerce & Marketing Numérique",
+        "years": "2016 - 2017",
+        "mainTech": [
+          "Gestion d'équipe",
+          "Marketing",
+          "Marketing Digital",
+          "SEO",
+          "Référencement",
+          "E-commerce"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Défi83 - Toulon",
+        "title": "(BAC+2) BTS Management des Unités Commerciales",
+        "years": "2014 - 2016",
+        "mainTech": [
+          "Gestion d'équipe",
+          "Marketing",
+          "Marketing Digital"
+        ],
+        "technologies": [
+        ]
+      },
+      {
+        "company": "Jean Aicard - Hyères",
+        "title": "Baccalauréat Science & Technologies de Gestion",
+        "years": "2010 - 2012",
+        "mainTech": [
+            "Comptabilité"
+            ],
         "technologies": [
         ]
       }
