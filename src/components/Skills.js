@@ -6,7 +6,7 @@ class Skills extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.skills;
       var skills = this.props.sharedSkills.icons.map(function (skills, i) {
         return (
-          <li data-aos="flip-left"
+          <li data-aos="flip-up"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000" className="list-inline-item mx-3" key={i}>
             <span>

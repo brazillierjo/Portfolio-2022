@@ -67,7 +67,7 @@ class About extends Component {
                       data-inline="false"
                     ></span>
                   </div>
-                  <div data-aos="flip-left" data-aos-duration="400"
+                  <div data-aos="flip-up" data-aos-duration="400"
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
@@ -81,7 +81,7 @@ class About extends Component {
                     <br />
                     {about}
                   </div>
-                  <div data-aos="flip-left" data-aos-duration="400" data-aos-delay="300" className="card-body font-trebuchet text-justify ml-3 mr-3">
+                  <div data-aos="flip-up" data-aos-duration="400" data-aos-delay="300" className="card-body font-trebuchet text-justify ml-3 mr-3">
                                     <span style={{
                                         height: "auto",
                                         fontSize: "140%",
