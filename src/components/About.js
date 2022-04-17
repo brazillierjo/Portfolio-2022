@@ -90,6 +90,7 @@ class About extends Component {
                                     </span>
                                 </div>
                             </div>
+                <img className="float-right mt-5" width={300} src="/images/signature.png" alt="signature" />
                         </div>
             </div>
           </div>
