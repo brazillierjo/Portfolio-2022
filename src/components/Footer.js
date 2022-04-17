@@ -7,7 +7,7 @@ class Footer extends Component {
         return (
           <span key={network.name} className="m-4">
             <a href={network.url} target="_blank" rel="noopener noreferrer">
-              <i className={network.class}></i>
+              <i className={`${network.class}`}></i>
             </a>
           </span>
         );

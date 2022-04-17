@@ -1,17 +1,17 @@
 {
     "basic_info": {
       "name": "RINCON BRAZILLIER Johan",
-      "titles": [ "Développeur front-end", "Développeur back-end", "AGILE", "Passionné par le Web", "Prêt pour de nouvelles aventures 🚀" ],
+      "titles": [ "Front-end", "Back-end", "AGILE", "Ready for adventures 🚀" ],
       "social": [
         {
           "name": "github",
           "url": "https://github.com/brazillierjo",
-          "class": "fab fa-github"
+          "class": "fab fa-github text-white"
         },
         {
           "name": "LinkedIn",
           "url": "https://www.linkedin.com/in/johan-r-brazillier-9b917a174/",
-          "class": "fab fa-linkedin"
+          "class": "fab fa-linkedin text-white"
         }
       ],
       "image": "myProfile.jpg"
