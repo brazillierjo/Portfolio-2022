@@ -50,7 +50,7 @@ class Diploma extends Component {
             >
               {work.title}
             </h3>
-            <h4
+            <h4 data-aos="fade-left" data-aos-duration="800" data-aos-delay="200"
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >

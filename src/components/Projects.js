@@ -26,7 +26,7 @@ class Projects extends Component {
             style={{ cursor: "pointer" }}
           >
             <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
+              <div data-aos="flip-up" data-aos-duration="1200" className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
                   <img
                     src={projects.images[0]}
