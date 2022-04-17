@@ -12,16 +12,6 @@
           "name": "LinkedIn",
           "url": "https://www.linkedin.com/in/johan-r-brazillier-9b917a174/",
           "class": "fab fa-linkedin"
-        },
-        {
-          "name": "Mail",
-          "url": "mailto:j.brazillier@gmail.com",
-          "class": "fab fa-envelope"
-        },
-        {
-          "name": "Tel",
-          "url": "tel:+33638027649",
-          "class": "fab fa-phone"
         }
       ],
       "image": "myProfile.jpg"

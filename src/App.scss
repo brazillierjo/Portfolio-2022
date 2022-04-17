@@ -24,11 +24,6 @@ html {
 	font-size: 250%;
 }
 
-.header-icon {
-	height: 150px;
-	width: 150px;
-}
-
 header {
 	position: relative;
 	height: 520px;
@@ -277,6 +272,16 @@ header h1 {
 	}
 }
 
+.contact-icons {
+	display: flex;
+	gap: 10px;
+
+	& svg {
+		margin: 20px 18px 0 18px;
+		height: 40px;
+		width: 40px;
+	}
+}
 .modal-inside .modal-content {
 	background: white;
 }
