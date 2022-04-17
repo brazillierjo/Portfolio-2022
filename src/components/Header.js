@@ -50,7 +50,7 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span data-aos="fade-up" data-aos-delay="200" className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <span data-aos="flip-up" data-aos-delay="200" className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
