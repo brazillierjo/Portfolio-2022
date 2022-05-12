@@ -261,7 +261,7 @@ export default function Game() {
             <div id="popup">
                 <h2>🥳</h2>
                 <div className="reload">
-                    <button id="reset">Reset</button>
+                    <button id="reset">Resett</button>
                 </div>
             </div>
             <div id="score"></div>
