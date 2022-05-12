@@ -1,6 +1,7 @@
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import '../src/scss/game.scss';
 
 html {
 	font-size: 62.5%;
@@ -33,7 +34,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #a6beae;
+	background-color: #ffc107;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -79,7 +80,7 @@ a {
 
 .language {
 	font-size: 25px;
-	background-color: #a6beae;
+	background-color: #ffc107;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -227,7 +228,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #ffc107;
 }
 
 .experience-icon {
@@ -363,7 +364,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #ffc107;
 	padding-bottom: 5%;
 }
 

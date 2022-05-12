@@ -1,0 +1,52 @@
+#score {
+    position: absolute;
+    right: 100px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+#popup {
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0 99999px rgb(0 0 0 / 30%);
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .game {
+        display: none;
+    }
+}
+
+.game {
+    width: 100vw;
+    align-items: baseline;
+}
+
+.reload>button {
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 14px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(110, 110, 110, 0.8);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.reload>button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 1);
+    transform: scale(1.1);
+}
