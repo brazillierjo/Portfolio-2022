@@ -29,8 +29,7 @@
 }
 
 .game {
-    width: 100vw;
-    align-items: baseline;
+    text-align: center;
 }
 
 .reload>button {
@@ -49,4 +48,9 @@
     cursor: pointer;
     background-color: rgb(0, 0, 0, 1);
     transform: scale(1.1);
+}
+.text-game {
+    text-align: center;
+    font-size: 20px;
+    margin: 40px 0 20px 0;
 }
