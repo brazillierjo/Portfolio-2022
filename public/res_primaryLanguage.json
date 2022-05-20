@@ -9,6 +9,10 @@
         "skills": "Compétences",
         "experience": "Expériences",
         "diploma": "Diplômes"
+      },
+      "games": {
+        "title": "Vous voulez jouer avec des jeux fais en JavaScript ?",
+        "button": "Cliquez ici 🖱"
       }
     },
     "projects": [

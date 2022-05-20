@@ -9,6 +9,10 @@
         "skills": "Skills",
         "experience": "Experiences",
         "diploma": "Diplomas"
+      },
+      "games": {
+        "title": "Want to play some JavaScript hand-made games ?",
+        "button": "Click here 🖱"
       }
     },
     "projects": [

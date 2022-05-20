@@ -8,7 +8,7 @@ import Experience from "./components/Experience";
 import Diploma from "./components/Diploma";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Game from "./components/Game";
+import Game1 from "./components/games/Game1";
 
 class App extends Component {
 
@@ -120,7 +120,8 @@ class App extends Component {
             ></span>
           </div>
         </div>
-        <Game />
+
+
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}

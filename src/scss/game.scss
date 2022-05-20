@@ -1,3 +1,13 @@
+// SECTION GAME IN PROJECT
+.games {
+    & button {
+        color: red;
+    }
+}
+
+// END OF GAME IN PROJECT
+
+// Mario-like game
 #score {
     position: absolute;
     right: 100px;
@@ -50,3 +60,4 @@
     background-color: rgb(0, 0, 0, 1);
     transform: scale(1.1);
 }
+// END OF MARIO-LIKE GAME

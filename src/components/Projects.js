@@ -7,15 +7,18 @@ class Projects extends Component {
     this.state = {
       deps: {},
       detailsModalShow: false,
-    };
+    }
   }
+
 
   render() {
     let detailsModalShow = (data) => {
       this.setState({ detailsModalShow: true, deps: data });
     };
 
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
+
+    let detailsModalClose = () => this.setState({ detailsModalShow: false })
+
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
@@ -62,6 +65,15 @@ class Projects extends Component {
             data={this.state.deps}
           />
         </div>
+
+        <div className="games">
+          <h2 className="text-center">JavaScript Video-games 🎮</h2>
+          <div className="text-center">
+            <button>Play Games</button>
+          </div>
+        </div>
+
+
       </section>
     );
   }

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
-import platform from '../images/assets-game/platform.png'
-import hills from '../images/assets-game/hills.png'
-import background from '../images/assets-game/background.png'
+import platform from '../../images/assets-game/platform.png'
+import hills from '../../images/assets-game/hills.png'
+import background from '../../images/assets-game/background.png'
 
 export default function Game() {
     useEffect(() => {
