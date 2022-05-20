@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+import Game1 from "./games/Game1";
 
 class Projects extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       deps: {},
       detailsModalShow: false,
+      marioGame: true,
     }
   }
-
 
   render() {
     let detailsModalShow = (data) => {
       this.setState({ detailsModalShow: true, deps: data });
-    };
-
+    }
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false })
 
@@ -67,10 +67,18 @@ class Projects extends Component {
         </div>
 
         <div className="games">
-          <h2 className="text-center">JavaScript Video-games 🎮</h2>
-          <div className="text-center">
-            <button>Play Games</button>
+          <div className="menu-game">
+            <div className="game">
+              <h2>JavaScript Vanilla video-game</h2>
+              <h3 className="text-center">Mario 🎮</h3>
+              <p className="emojis">⬅️ ⬆️ ➡️</p>
+            </div>
           </div>
+
+          <div>
+            {this.state.marioGame ? <Game1 /> : null}
+          </div>
+
         </div>
 
 

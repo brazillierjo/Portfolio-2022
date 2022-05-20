@@ -8,12 +8,6 @@ export default function Game() {
         launchGame()
     }, [])
 
-    window.addEventListener("keydown", function (e) {
-        if (["Space", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].indexOf(e.code) > -1) {
-            e.preventDefault()
-        }
-    }, false)
-
     const launchGame = () => {
         const canvas = document.getElementById('game')
         canvas.width = 1024
@@ -257,11 +251,7 @@ export default function Game() {
     }
 
     return (
-        <>
-            <div className="text-game">
-                <h1>HTML | JavaScript vanilla video-game 👇</h1>
-                <p>Use arrows to move, and space or arrow up to jump !</p>
-            </div>
+        <div className="popup-game">
             <div className="game">
                 <div id="popup">
                     <h2>Congratulations 🥳</h2>
@@ -271,8 +261,7 @@ export default function Game() {
                 </div>
                 <div id="score"></div>
                 <canvas id="game"></canvas>
-                <script src="./index.js" type="module"></script>
             </div>
-        </>
+        </div>
     )
 }
