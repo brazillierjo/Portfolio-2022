@@ -16,7 +16,7 @@ export default function Game() {
 
     const launchGame = () => {
         const canvas = document.getElementById('game')
-        canvas.width = window.innerWidth - 15
+        canvas.width = 1024
         canvas.height = 576
         const ctx = canvas.getContext('2d')
 
@@ -257,16 +257,22 @@ export default function Game() {
     }
 
     return (
-        <div className="game">
-            <div id="popup">
-                <h2>🥳</h2>
-                <div className="reload">
-                    <button id="reset">Reset</button>
-                </div>
+        <>
+            <div className="text-game">
+                <h1>HTML | JavaScript vanilla video-game 👇</h1>
+                <p>Use arrows to move, and space or arrow up to jump !</p>
             </div>
-            <div id="score"></div>
-            <canvas id="game"></canvas>
-            <script src="./index.js" type="module"></script>
-        </div>
+            <div className="game">
+                <div id="popup">
+                    <h2>Congratulations 🥳</h2>
+                    <div className="reload">
+                        <button id="reset">Reset game 🔄</button>
+                    </div>
+                </div>
+                <div id="score"></div>
+                <canvas id="game"></canvas>
+                <script src="./index.js" type="module"></script>
+            </div>
+        </>
     )
 }

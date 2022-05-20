@@ -32,15 +32,14 @@
     display: none;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1024px) {
     .game {
         display: none;
     }
 }
 
 .game {
-    width: 100vw;
-    align-items: baseline;
+    text-align: center;
 }
 
 .reload>button {
@@ -60,4 +59,12 @@
     background-color: rgb(0, 0, 0, 1);
     transform: scale(1.1);
 }
+<<<<<<< HEAD
 // END OF MARIO-LIKE GAME
+=======
+.text-game {
+    text-align: center;
+    font-size: 20px;
+    margin: 40px 0 20px 0;
+}
+>>>>>>> efd3031abe21f33cea7a38bcad77418a5ebd641f
